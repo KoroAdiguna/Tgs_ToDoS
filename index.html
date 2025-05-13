@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>ToDoS</title>
+    </head>
+    <style>
+        input {
+            width: 300px;
+            height: 30px;
+            border-radius: 5px;
+            margin-left: 5px;
+        }
+        button {
+            padding: 10px 17px;
+            border-radius: 5px;
+            margin-left: 5px;
+        }
+        .tambah {
+            float: right;
+        }
+        .hps{
+            float: right;
+            padding: 6px 9px;
+        }
+        #ok{
+            padding: 3px 0;
+            padding-bottom:5px ;
+            background-color: black;
+            border-radius: 6px;
+        }
+        #halo {
+            align-content: center;
+            flex-flow:column;
+            list-style: none;
+            margin-left:4px;
+            margin-top: 5px;
+            background-color: lightblue;
+            border-radius: 6px;
+        }
+    </style>
+    <body>
+        <input id="teks" type="text" placeholder="Masukkanlah Teks . . .">
+        <button class="tambah"onclick="tambah()">Tambah</button>
+        <ul id="ok"></ul>
+    </body>
+    <script src="script.js" type="text/javascript" charset="utf-8"></script>
+</html>
