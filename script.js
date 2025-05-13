@@ -3,7 +3,7 @@ function tambah() {
     let mskInp = inp.value.trim();
 
     if (mskInp === "") {
-        alert("Input tidak boleh kosong");
+        alert("Input tidak boleh kosong!");
         return;
     }
     
